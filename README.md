@@ -1,4 +1,4 @@
-# SG_StormScourgesRPG
+# StormScourges RPG
 
 Discord thread link: https://discord.com/channels/1101590942076653660/1408177636785520690/1408177636785520690
 
