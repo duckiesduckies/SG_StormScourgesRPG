@@ -1,6 +1,7 @@
 ﻿{
   "based_on": "duckiesHeroSelector_DebugCreate",
   "id": "duckiesHeroSelector_KastielHeroCreate",
+  "spawn_effect": "emptyRef",
   "spawn_unit": "duckiesHeroKastiel",
   "validator": "Valid_TargetIsduckiesHeroPlacer"
 }

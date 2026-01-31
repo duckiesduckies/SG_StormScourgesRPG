@@ -1,6 +1,7 @@
 ﻿{
   "based_on": "duckiesHeroSelector_DebugCreate",
   "id": "duckiesHeroSelector_KastielUpgradeCreate",
+  "spawn_effect": "emptyRef",
   "spawn_unit": "duckiesHeroUpgraderKastiel",
   "validator": "Valid_TargetIsduckiesUpgradePlacer"
 }

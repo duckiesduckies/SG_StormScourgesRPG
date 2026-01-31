@@ -2810,6 +2810,102 @@
         "starting": 0.0
       }
     },
+    "_duckiesLifeBomb7": {
+      "abilityList": [],
+      "based_on": "duckiesLifeBomb",
+      "commandList": [],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": true,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": true,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLifeBomb7",
+      "name": "GAME TIP/INFO - Armor",
+      "show_name_on_hover": true,
+      "unit_button": "duckiesHintPost_TakeCommandButton",
+      "vital_energy": {
+        "maximum": 0.0,
+        "regen": 0.0,
+        "starting": 0.0
+      }
+    },
+    "_duckiesLifeBomb8": {
+      "abilityList": [],
+      "based_on": "duckiesLifeBomb",
+      "commandList": [],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": true,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": true,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLifeBomb8",
+      "name": "GAME TIP/INFO - Takeover",
+      "show_name_on_hover": true,
+      "unit_button": "duckiesHintPost_TakeCommandButton",
+      "vital_energy": {
+        "maximum": 0.0,
+        "regen": 0.0,
+        "starting": 0.0
+      }
+    },
+    "_duckiesLifeBomb9": {
+      "abilityList": [],
+      "based_on": "duckiesLifeBomb",
+      "commandList": [],
+      "flags": {
+        "alert_when_attacked": true,
+        "award_victory_points_to_other_team": false,
+        "detector": false,
+        "display_ui_description": true,
+        "has_prime_structure": false,
+        "hologram": false,
+        "overlap_resource_a": false,
+        "receives_veterancy_from_kills": true,
+        "requires_cascade_field": true,
+        "requires_cascade_field_to_morph": true,
+        "seek_and_destroy": false,
+        "stealth": false,
+        "uncommandable": false,
+        "unselectable": false,
+        "untargetable": false,
+        "victory_expansion": false
+      },
+      "id": "_duckiesLifeBomb9",
+      "name": "GAME TIP/INFO - Takeover",
+      "show_name_on_hover": true,
+      "unit_button": "duckiesHintPost_TakeCommandButton",
+      "vital_energy": {
+        "maximum": 0.0,
+        "regen": 0.0,
+        "starting": 0.0
+      }
+    },
     "_duckiesLifePickup0": {
       "based_on": "duckiesLifePickup",
       "buffs": [

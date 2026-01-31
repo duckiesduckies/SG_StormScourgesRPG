@@ -168,7 +168,7 @@
   "responses": [],
   "sb_id": "none",
   "selection_alias": "",
-  "show_name_on_hover": false,
+  "show_name_on_hover": true,
   "shroud_radius": 0.0,
   "sound_cooldown_data_list": [
     "BaseSoundCooldownData_Unit_Attack",

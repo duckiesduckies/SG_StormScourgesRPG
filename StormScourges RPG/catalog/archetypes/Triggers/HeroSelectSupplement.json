@@ -2,20 +2,28 @@
   "actions": [
     {
       "function_id": "Callouts_Major",
+      "guid": "D54F531DECAF334E955FD0DF0B2B2C03",
       "parameters": [
         {
           "expressions": [
             {
               "function": {
                 "function_id": "Text_ToText",
+                "guid": "B18232D2D0E23E3DB1BF93E7E4816B1B",
                 "parameters": [
                   {
                     "expressions": [
                       {
+                        "guid": "7FBD4B80B1373163B31AC001BE838B61",
                         "type": "Value",
                         "value": {
+                          "guid": "4431521BDC4A305C8D32CC16453A43A2",
                           "type": {
                             "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
                             "tags": [
                               "to_text"
                             ],
@@ -25,28 +33,38 @@
                         }
                       }
                     ],
+                    "guid": "010DF420B52934DB83EA935E1010B0EC",
                     "id": "value"
                   }
                 ]
               },
+              "guid": "008D5A5EF3F631F9B07096EA27E6333A",
               "type": "Function"
             }
           ],
+          "guid": "2F2BEF6204A035279744CF3195C13184",
           "id": "message"
         },
         {
           "expressions": [
             {
+              "guid": "CA545C6EC99631C1B097EDA2B2B2717B",
               "type": "Value",
               "value": {
+                "guid": "7FFEB682E07733E188E1FF0B0442447D",
                 "type": {
                   "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
                   "type": "Time"
                 },
                 "value": "10.0"
               }
             }
           ],
+          "guid": "C2EC372792B93FA4BE56345F0C6B63C3",
           "id": "lifetime"
         },
         {
@@ -54,99 +72,293 @@
             {
               "function": {
                 "function_id": "PlayerGroup_GetPlayerAsPlayerGroup",
+                "guid": "3D7B034642A83A039B7AEF27441356E2",
                 "parameters": [
                   {
                     "expressions": [
                       {
                         "function": {
                           "function_id": "Unit_GetOwningPlayer",
+                          "guid": "4917AB32F2D43A77BA01C3661008B470",
                           "parameters": [
                             {
                               "expressions": [
                                 {
                                   "function": {
-                                    "function_id": "Unit_GetTriggeringUnit"
+                                    "function_id": "Unit_GetTriggeringUnit",
+                                    "guid": "B9F7BEA20E0337D9AF98226AC2FFEE54"
                                   },
+                                  "guid": "87BD3EF4DF08349CBCA80B00EE6AC74A",
                                   "type": "Function"
                                 }
                               ],
+                              "guid": "4EFF2D1A647F39A5B06B1ED4F7B35856",
                               "id": "unit"
                             }
                           ]
                         },
+                        "guid": "A7AFB88826B4325B986EB1651F2ED4AF",
                         "type": "Function"
                       }
                     ],
+                    "guid": "C3F3C99C8A773EA79581EAB659D0AC12",
                     "id": "player"
                   }
                 ]
               },
+              "guid": "7C71956EB46539D98CED080CE3C6AC9B",
               "type": "Function"
             }
           ],
+          "guid": "A34573D21B03399CBEE53CACE7182A8A",
           "id": "group"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "D3709ADD409E0B4AEA2489BAC7787E9C",
+              "type": "Value",
+              "value": {
+                "guid": "C2A330E146470D6D3B37C8B803AE711A",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Value"
+                },
+                "value": "255"
+              }
+            }
+          ],
+          "guid": "3BE9AAE74134FCBD1414BE9FF99C6A0B",
+          "id": "r"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "8C81EF6D4032913A5C888FA75A1A3C7E",
+              "type": "Value",
+              "value": {
+                "guid": "5CF5500A47A525F2AE63978682C1289A",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Value"
+                },
+                "value": "255"
+              }
+            }
+          ],
+          "guid": "33D55D0F4E77D305679F3CA5D4DC15FC",
+          "id": "g"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "5DC998544A614CE87F3302B3ABA82CA9",
+              "type": "Value",
+              "value": {
+                "guid": "952A4DBB4ACCE76EFF4561814E833523",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Value"
+                },
+                "value": "255"
+              }
+            }
+          ],
+          "guid": "02E7037A4132BCE64D2594BCC5EBECD2",
+          "id": "b"
         }
       ]
     },
     {
       "function_id": "Camera_MoveToPositionInstant",
+      "guid": "E5D44AF20B2C3723B02B3AC1FE930EDC",
       "parameters": [
         {
           "expressions": [
             {
               "function": {
                 "function_id": "Unit_GetOwningPlayer",
+                "guid": "FF1F078D8B0E34EDB75CD9FA4FD1FAC5",
                 "parameters": [
                   {
                     "expressions": [
                       {
                         "function": {
-                          "function_id": "Unit_GetTriggeringUnit"
+                          "function_id": "Unit_GetTriggeringUnit",
+                          "guid": "63B95B526B543D7FB78703DB4EA89B82"
                         },
+                        "guid": "DAF7BDB453A03ED4A1FE0C33FCBEA0D2",
                         "type": "Function"
                       }
                     ],
+                    "guid": "95A826A9DCB1334B830CA7B3303E269B",
                     "id": "unit"
                   }
                 ]
               },
+              "guid": "DEB6242BB0493C7D8CAE111A36EFD1D6",
               "type": "Function"
             }
           ],
+          "guid": "1D28AC135C193E82A09526E310A4809E",
           "id": "player"
         },
         {
           "expressions": [
             {
+              "guid": "2DBB0D7944203C00B6C1735B01FEDEE6",
               "type": "Variable",
               "variable": {
+                "guid": "51834DDC0AF232708E65D5D05BBE0433",
                 "variable_id": "gvHeroSpawnPoint"
               }
             }
           ],
+          "guid": "20EDCF24F56C325690A5FCBEE6ADCEBE",
           "id": "pos"
         }
       ]
     }
   ],
   "based_on": "Trigger",
-  "conditions": [],
-  "dev_only": false,
-  "enabled": false,
-  "events": [
+  "conditions": [
     {
-      "function_id": "Unit_OnUnitEntersExitsRegion",
+      "function_id": "Logic_Comparison",
+      "guid": "667855E64C922AF28DFAE59339A153BF",
       "parameters": [
         {
           "expressions": [
             {
+              "function": {
+                "function_id": "UnitGroup_CountUnits",
+                "guid": "6D21A10B498CF11F803E028D7A7DFCC5",
+                "parameters": [
+                  {
+                    "expressions": [
+                      {
+                        "function": {
+                          "function_id": "Player_GetHeroUnits",
+                          "guid": "A8C46FCE406EEF601110318C37738825",
+                          "parameters": [
+                            {
+                              "expressions": [
+                                {
+                                  "function": {
+                                    "function_id": "Unit_GetOwningPlayer",
+                                    "guid": "FEC88D704475FF5F45ED158923EA4DD0",
+                                    "parameters": [
+                                      {
+                                        "expressions": [
+                                          {
+                                            "function": {
+                                              "function_id": "Unit_GetTriggeringUnit",
+                                              "guid": "520256514FF73C803E2342A5AF4E5BBD"
+                                            },
+                                            "guid": "B94E26A145FA15C1D202B78FFED2F3C8",
+                                            "type": "Function"
+                                          }
+                                        ],
+                                        "guid": "1D80F9904D5C53BA7C6DD1865581E158",
+                                        "id": "unit"
+                                      }
+                                    ]
+                                  },
+                                  "guid": "1019675048EC2BCE58D52A94EB27275F",
+                                  "type": "Function"
+                                }
+                              ],
+                              "guid": "CADAE4A64837539349EAA5A427A5D542",
+                              "id": "player"
+                            }
+                          ]
+                        },
+                        "guid": "B9C37A8249B6B1F0E0404E84A4648085",
+                        "type": "Function"
+                      }
+                    ],
+                    "guid": "BFF7C5634B091D5AEA8EF698BC3F6AA7",
+                    "id": "group"
+                  }
+                ]
+              },
+              "guid": "2CAD481E49057FA46ECBDCBB5BE4CE9D",
+              "type": "Function"
+            }
+          ],
+          "guid": "6EDAA53F469846FE8FECB4952DA711F7",
+          "id": "value1"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "3311DBD94D2CFFF5BA8205B43009EECA",
               "preset": {
+                "guid": "7B448C3A4BB464346799BEA38530EBD4",
+                "preset_id": "Logic_ComparisonOperator",
+                "value_id": "lte"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "37BC8E4547D2B5DAE7D4AABFC684F36D",
+          "id": "op"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "A07AE5A14AF479EECF4C91AAB83FA4DC",
+              "type": "Value",
+              "value": {
+                "guid": "5EFA797C46BC8766E150C882C2D4955D",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Player"
+                },
+                "value": "1"
+              }
+            }
+          ],
+          "guid": "8F4186264847D7CC40B8B7B7E5066DF3",
+          "id": "value2"
+        }
+      ]
+    }
+  ],
+  "enabled": false,
+  "events": [
+    {
+      "function_id": "Unit_OnUnitEntersExitsRegion",
+      "guid": "5D9D6F063DB635219FD443CD0C44328C",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "74B50E7790ED3D90BD9BDBBB67966FFD",
+              "preset": {
+                "guid": "A2BD1FFED3FA3BBF9354EC7A1B69754C",
                 "preset_id": "Region_EntersExits",
                 "value_id": "enters"
               },
               "type": "Preset"
             }
           ],
+          "guid": "1275B5581B85366AA9A2225AA38EF86F",
           "id": "state"
         },
         {
@@ -154,32 +366,56 @@
             {
               "function": {
                 "function_id": "Region_GetRegionFromPlacedName",
+                "guid": "CF3F666E497F3BDEAF25705BA7D6A5E5",
                 "parameters": [
                   {
                     "expressions": [
                       {
+                        "guid": "61313C58754431AAB60AC2734B26C68E",
                         "type": "Value",
                         "value": {
+                          "guid": "A57B0A692C5F34DCB79B622A86F1CA16",
                           "type": {
                             "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
                             "type": "String"
                           },
                           "value": "UpgraderSpawnDetect"
                         }
                       }
                     ],
+                    "guid": "386C58C29D433271B06398286EB1EBA5",
                     "id": "name"
                   }
                 ]
               },
+              "guid": "38A8E182A47D37E3A5DF7F8A3104388A",
               "type": "Function"
             }
           ],
+          "guid": "403BA4AD9D613563AD4D21D3C098CA3A",
           "id": "region"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "B0628B2D440E8A1DFE579BBA8798A15E",
+              "preset": {
+                "guid": "75549234476D879AFDDEB8BCA7835722",
+                "preset_id": "Unit_AnyUnit",
+                "value_id": "any"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "A10E6EDD4D109D52179C34A9103EB03C",
+          "id": "unit"
         }
       ]
     }
   ],
-  "id": "HeroSelectSupplement",
-  "variables": []
+  "id": "HeroSelectSupplement"
 }

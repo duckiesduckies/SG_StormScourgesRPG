@@ -1,0 +1,11 @@
+﻿{
+  "data": {
+    "UseUITint": true,
+    "based_on": "Button",
+    "icon": "Texture2D'/Game/Pegasus/UI/Assets/StoreItems/Pets/UI_StoreItems_Pets_Chicken.UI_StoreItems_Pets_Chicken'",
+    "id": "duckiesAlliedCrediter_DuckyUnitBtn",
+    "name": "pegasus_core|Button_Name_AttackButton",
+    "tooltip": "pegasus_core|Button_Tooltip_AttackButton"
+  },
+  "meta": {}
+}

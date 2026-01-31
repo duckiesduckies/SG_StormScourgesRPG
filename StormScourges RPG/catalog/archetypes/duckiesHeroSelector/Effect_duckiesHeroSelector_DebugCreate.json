@@ -1,7 +1,6 @@
 ﻿{
   "__base_type": "GameEffectCreateUnit",
   "based_on": "BaseGameEffectCreateUnit",
-  "editor_icon": "",
   "effect_location": {
     "effect_parent": "none",
     "entity_or_point": "Point",
@@ -30,7 +29,6 @@
     "follow_source_rally": false
   },
   "id": "duckiesHeroSelector_DebugCreate",
-  "impact_fx": "",
   "should_birth_on_creation": false,
   "spawn_count": 1,
   "spawn_effect": "emptyRef",

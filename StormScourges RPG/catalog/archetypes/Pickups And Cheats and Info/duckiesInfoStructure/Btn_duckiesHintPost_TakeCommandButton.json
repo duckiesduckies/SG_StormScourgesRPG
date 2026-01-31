@@ -1,0 +1,10 @@
+﻿{
+  "UseUITint": false,
+  "__base_type": "Button",
+  "based_on": "Button",
+  "extended_tooltips": [],
+  "icon": "Texture2D'/Game/Pegasus/UI/Assets/Icons/Pings/RadialMenu/Sprays/Spray_Bob_QuestionMark.Spray_Bob_QuestionMark'",
+  "id": "duckiesHintPost_TakeCommandButton",
+  "name": "",
+  "tooltip": "You can take command of leaver/absent player's units by selecting them and sending !take command in the chat.\n\nThis can be used to take control of unused hero selectors in games that have missing players."
+}

@@ -1,0 +1,60 @@
+﻿{
+  "data": {
+    "armor_icon": "Texture2D'/Game/Pegasus/UI/Assets/Editor/UI_Editor_PixelYeti.UI_Editor_PixelYeti'",
+    "armor_name": "gl&hf",
+    "based_on": "BaseUnit_Creep",
+    "behaviors": [
+      "Creeps_BehaviorWander"
+    ],
+    "build_cost": {
+      "resource_a": 15.0,
+      "resource_b": 0.0,
+      "resource_c": 0.0,
+      "resource_d": 0.0
+    },
+    "effects": {
+      "birth": "emptyRef",
+      "creation": "emptyRef",
+      "death": "emptyRef",
+      "revenge": "ResourcePickupRefund"
+    },
+    "fidget": {
+      "delay_maximum": 30.0,
+      "delay_minimum": 10.0,
+      "turning_angle": 0.0,
+      "turning_duration": 1.0,
+      "weights": {
+        "animate": 33.0,
+        "idle": 66.0,
+        "turn": 0.0
+      }
+    },
+    "id": "duckiesAlliedCrediter_DuckyUnit",
+    "minimap_icon_size": 8.0,
+    "movement": {
+      "acceleration_time": 0.0,
+      "collision": {
+        "air": false,
+        "burrowed": false,
+        "ground": true,
+        "item": false
+      },
+      "deceleration_time": 0.0,
+      "moving_turn_period": 0.18,
+      "pathing_mode": "Ground",
+      "speed": 4.0,
+      "stationary_turn_period": 0.18
+    },
+    "name": "Map by: DuckyTheDuck",
+    "outer_radius": 0.6,
+    "show_name_on_hover": true,
+    "starting_snowtags": [
+      "heightplane_ground",
+      "status_invulnerable"
+    ],
+    "unit_button": "duckiesAlliedCrediter_DuckyUnitBtn",
+    "unit_info_portrait": "Texture2D'/Game/Pegasus/UI/Assets/Portraits/Critters/UI_Portrait_Critters_Default_Chicken.UI_Portrait_Critters_Default_Chicken'",
+    "unreal_actor": "Proxy_BP_UC_MinionEasy"
+  },
+  "meta": {}
+}

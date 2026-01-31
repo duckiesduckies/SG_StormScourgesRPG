@@ -2,111 +2,235 @@
   "actions": [
     {
       "function_id": "General_Wait",
+      "guid": "D54F531DECAF334E955FD0DF0B2B2C03",
       "parameters": [
         {
           "expressions": [
             {
+              "guid": "008D5A5EF3F631F9B07096EA27E6333A",
               "type": "Value",
               "value": {
+                "guid": "C8673F192BFF34E297D73D2F58443956",
                 "type": {
                   "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
                   "type": "Time"
                 },
                 "value": "0.0"
               }
             }
           ],
+          "guid": "2F2BEF6204A035279744CF3195C13184",
           "id": "duration"
         }
       ]
     },
     {
       "function_id": "Callouts_Major",
+      "guid": "E5D44AF20B2C3723B02B3AC1FE930EDC",
       "parameters": [
         {
           "expressions": [
             {
               "function": {
                 "function_id": "Text_ToText",
+                "guid": "FF1F078D8B0E34EDB75CD9FA4FD1FAC5",
                 "parameters": [
                   {
                     "expressions": [
                       {
+                        "guid": "24EE47E446BBFBB15482DAB1E2DC734B",
                         "type": "Value",
                         "value": {
+                          "guid": "8012EBB544E43CCFFFD13BB00A4C2BE0",
                           "type": {
                             "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
                             "tags": [
                               "to_text"
                             ],
                             "type": "String"
                           },
-                          "value": "StormScourges RPG v1.1"
+                          "value": "StormScourges RPG v1.2"
                         }
                       }
                     ],
+                    "guid": "95A826A9DCB1334B830CA7B3303E269B",
                     "id": "value"
                   }
                 ]
               },
+              "guid": "DEB6242BB0493C7D8CAE111A36EFD1D6",
               "type": "Function"
             }
           ],
+          "guid": "1D28AC135C193E82A09526E310A4809E",
           "id": "message"
         },
         {
           "expressions": [
             {
+              "guid": "2DBB0D7944203C00B6C1735B01FEDEE6",
               "type": "Value",
               "value": {
+                "guid": "2EDD24784C2F3FAA9D2F1338D0B6BCFA",
                 "type": {
                   "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
                   "type": "Time"
                 },
                 "value": "7.0"
               }
             }
           ],
+          "guid": "20EDCF24F56C325690A5FCBEE6ADCEBE",
           "id": "lifetime"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "38D0A11447A378E9B6569296E2BCF1AF",
+              "type": "Value",
+              "value": {
+                "guid": "B994C6814828A2F273315DB628EE4ADD",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Value"
+                },
+                "value": "255"
+              }
+            }
+          ],
+          "guid": "4AB2D02D4AB14105F7516B9D3C313F3E",
+          "id": "r"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "CF81E9984BC1EA305A02C5981303D0D7",
+              "type": "Value",
+              "value": {
+                "guid": "B9A0575C4609C6E279C7A6BC847F21C2",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Value"
+                },
+                "value": "255"
+              }
+            }
+          ],
+          "guid": "354108F64FC195267A527BB3706732C0",
+          "id": "g"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "759E5424463FB0565AE8918C5EE4115C",
+              "type": "Value",
+              "value": {
+                "guid": "AD8E336D4E52A63E4555889324FFFC25",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Value"
+                },
+                "value": "255"
+              }
+            }
+          ],
+          "guid": "51DA2A6F40EF3ED86441F0AC813EC299",
+          "id": "b"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "PlayerGroup_GetAllPlayers",
+                "guid": "174E702741C8987DF9767BB920A917D3"
+              },
+              "guid": "DE7565C84EADC61FDEA417AE309D150A",
+              "type": "Function"
+            }
+          ],
+          "guid": "EA60D401409CD272D4C365B7B0DF584F",
+          "id": "group"
         }
       ]
     },
     {
       "function_id": "General_Wait",
+      "guid": "F70725AA311A35508119D85568E009FE",
+      "is_enabled": false,
       "parameters": [
         {
           "expressions": [
             {
+              "guid": "C8D5EF55DC8539D39090FE3E63BB4C55",
               "type": "Value",
               "value": {
+                "guid": "70B31AEF64243BDDA69A9F3FF1F2A753",
                 "type": {
                   "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
                   "type": "Time"
                 },
                 "value": "0.25"
               }
             }
           ],
+          "guid": "8E3014F831CE30C9A65A2846D33D7338",
           "id": "duration"
         }
       ]
     },
     {
       "function_id": "Callouts_Major",
+      "guid": "5C55CD14F26A30F0977CACE279EA626A",
+      "is_enabled": false,
       "parameters": [
         {
           "expressions": [
             {
               "function": {
                 "function_id": "Text_ToText",
+                "guid": "83FA5583834A3D32B5A0E3C70287AB58",
                 "parameters": [
                   {
                     "expressions": [
                       {
+                        "guid": "F388215FC474374D81DC687CC54FCB75",
                         "type": "Value",
                         "value": {
+                          "guid": "2F09A079811235BBB0D5D7C74ED96B78",
                           "type": {
                             "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
                             "tags": [
                               "to_text"
                             ],
@@ -116,68 +240,174 @@
                         }
                       }
                     ],
+                    "guid": "F82BE38286A03918AF19E0B5542F3EDE",
                     "id": "value"
                   }
                 ]
               },
+              "guid": "9F757F59558235F2A090E2AC0E84D595",
               "type": "Function"
             }
           ],
+          "guid": "B66FB381AED833B8951B235DF2C0B164",
           "id": "message"
         },
         {
           "expressions": [
             {
+              "guid": "F17CFFB7FBCB3B359DC6E179300BB1A2",
               "type": "Value",
               "value": {
+                "guid": "790FE0E4CC38334E9695B0EC2CEBB71D",
                 "type": {
                   "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
                   "type": "Time"
                 },
                 "value": "6.75"
               }
             }
           ],
+          "guid": "A95DDC347AA532F5A58C9C848AC053BB",
           "id": "lifetime"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "33A47F42415C8549ABC6EEB1CF922C5B",
+              "type": "Value",
+              "value": {
+                "guid": "60B1CA5C46A6ECBF0B8B9B8F05805EFD",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Value"
+                },
+                "value": "255"
+              }
+            }
+          ],
+          "guid": "8EFCBDAA4E3C21BA2016F397519E84D6",
+          "id": "r"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "0EC439CE49C7E80EB3A668A26F9AEFE0",
+              "type": "Value",
+              "value": {
+                "guid": "10667B79445DFC7D936841BA2779F032",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Value"
+                },
+                "value": "255"
+              }
+            }
+          ],
+          "guid": "37E61F4D431E4B25E3FF2FAE147B91FA",
+          "id": "g"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "6C5A0745444826766E13EA8004C6EE08",
+              "type": "Value",
+              "value": {
+                "guid": "24132B27412FD5D94CE486B6568E7A82",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Value"
+                },
+                "value": "255"
+              }
+            }
+          ],
+          "guid": "B4621713489DC50410AE7EA9B1B158BE",
+          "id": "b"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "PlayerGroup_GetAllPlayers",
+                "guid": "F1913E3D443DCDC8A762A4A529179346"
+              },
+              "guid": "089C32FC4D37CEB552349D803D3CE90A",
+              "type": "Function"
+            }
+          ],
+          "guid": "BB86236F44DBEE196DD232AAE970656A",
+          "id": "group"
         }
       ]
     },
     {
       "function_id": "General_Wait",
+      "guid": "4025E6241F313CDCAEBFC0793E0660D0",
       "parameters": [
         {
           "expressions": [
             {
+              "guid": "7FB1CD86D56632D59E366304278B0D94",
               "type": "Value",
               "value": {
+                "guid": "278D9E8097A23E7D9F9687301B803FA2",
                 "type": {
                   "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
                   "type": "Time"
                 },
                 "value": "1.75"
               }
             }
           ],
+          "guid": "2F75DA4F96793F51AA5012663EB62E24",
           "id": "duration"
         }
       ]
     },
     {
       "function_id": "Callouts_Major",
+      "guid": "2055C6587B64300FBEB2509F0D0A3E0A",
       "parameters": [
         {
           "expressions": [
             {
               "function": {
                 "function_id": "Text_ToText",
+                "guid": "3B13DE26541F3AC49E045DC27A256E2F",
                 "parameters": [
                   {
                     "expressions": [
                       {
+                        "guid": "BCCFFAA2E52333538142724AC855A52C",
                         "type": "Value",
                         "value": {
+                          "guid": "EC898CD656E930739F63EF79EFEB39EB",
                           "type": {
                             "directive": "FunctionType",
+                            "implements": "",
+                            "inner_type": "",
+                            "param_id": "",
+                            "sub_directive": "None",
                             "tags": [
                               "to_text"
                             ],
@@ -187,45 +417,129 @@
                         }
                       }
                     ],
+                    "guid": "3EAA76D414BA3A9F90F19DE3F9DFDBF9",
                     "id": "value"
                   }
                 ]
               },
+              "guid": "37018C2B195131509238BA76517D18F3",
               "type": "Function"
             }
           ],
+          "guid": "B070CC821CCB35CF9ADDFB67691CF026",
           "id": "message"
         },
         {
           "expressions": [
             {
+              "guid": "14F80B5C92583E9DA3120A78FCB1610E",
               "type": "Value",
               "value": {
+                "guid": "41B58FF7CF683277A3C6418F001A77CF",
                 "type": {
                   "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
                   "type": "Time"
                 },
                 "value": "5.0"
               }
             }
           ],
+          "guid": "E84BA49F1CED383F88877843343BC230",
           "id": "lifetime"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "9E08020141421A99B37164A0F14538B6",
+              "type": "Value",
+              "value": {
+                "guid": "AA2D723A44BC8B4389D16496812557B5",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Value"
+                },
+                "value": "255"
+              }
+            }
+          ],
+          "guid": "D39591C540D3535609B02392B83BE21E",
+          "id": "r"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "299DFF5A401CA91295369BBF499AB75D",
+              "type": "Value",
+              "value": {
+                "guid": "52EFBB4B420EF11A03B27682CDF0BBD4",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Value"
+                },
+                "value": "255"
+              }
+            }
+          ],
+          "guid": "956C37144B12147082D583A152721A5A",
+          "id": "g"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "E16687FF47CC51D5A0EC03AC2D3E52D8",
+              "type": "Value",
+              "value": {
+                "guid": "24D71E5D4F938BE2000DA9A986889D3F",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Value"
+                },
+                "value": "255"
+              }
+            }
+          ],
+          "guid": "2618E359441B0484A80938A35B5F40F4",
+          "id": "b"
+        },
+        {
+          "expressions": [
+            {
+              "function": {
+                "function_id": "PlayerGroup_GetAllPlayers",
+                "guid": "E17A13FF47B158F8F99B5B89D31372EF"
+              },
+              "guid": "E212202F4DE3514E38B869A1B2FE76BC",
+              "type": "Function"
+            }
+          ],
+          "guid": "4EB6EEE949444A9006E1E8B6A5441709",
+          "id": "group"
         }
       ]
     }
   ],
   "based_on": "Trigger",
-  "conditions": [],
-  "dev_only": false,
-  "enabled": true,
   "events": [
     {
       "function_id": "Game_OnGameStart",
-      "is_enabled": true,
-      "parameters": [],
-      "sub_functions": []
+      "guid": "5D9D6F063DB635219FD443CD0C44328C"
     }
   ],
-  "id": "GameStartMessage",
-  "variables": []
+  "id": "GameStartMessage"
 }

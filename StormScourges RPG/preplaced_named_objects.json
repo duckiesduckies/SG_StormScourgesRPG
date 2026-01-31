@@ -606,12 +606,12 @@
     ]
   },
   "0556D180-4BDA-A2F5-D482-2EA6325244D6": {
-    "facing": 961310550,
+    "facing": 961310469,
     "kind": "locationMarkerPlayerStart",
     "player": 3,
     "position": [
       -1736704,
-      1767936
+      1773300
     ]
   },
   "05650D7C-475A-7A16-DB3F-3DA56EAB1590": {
@@ -2678,6 +2678,15 @@
       113263
     ]
   },
+  "195EB555-41D6-36FE-6104-B3B6EA2AAC01": {
+    "facing": 536870837,
+    "kind": "_duckiesLifeBomb9",
+    "player": 0,
+    "position": [
+      -1329727,
+      1877245
+    ]
+  },
   "19A98969-443A-F1ED-5DE7-258611811094": {
     "data": {
       "seed": 31147
@@ -4500,12 +4509,12 @@
     ]
   },
   "2A9DDAC9-4689-CD16-795E-0E9721839029": {
-    "facing": 847405640,
+    "facing": 847405568,
     "kind": "locationMarkerPlayerStart",
     "player": 1,
     "position": [
       -1736704,
-      1767936
+      1769472
     ]
   },
   "2AB2E302-4CFA-696B-7E1E-CCABD70CC33C": {
@@ -5238,6 +5247,15 @@
     "position": [
       1114091,
       793612
+    ]
+  },
+  "30AFA3B5-43B6-F8FE-21F7-B8B7C4E385DA": {
+    "facing": 536870852,
+    "kind": "_duckiesLifeBomb8",
+    "player": 0,
+    "position": [
+      -1677477,
+      1936236
     ]
   },
   "30DCF78A-4BC8-7CBB-3B6E-E9AB80AB1804": {
@@ -7680,12 +7698,12 @@
     ]
   },
   "4B2E1E4F-49B7-5F76-FE4E-9B836CF0DBEA": {
-    "facing": 589186050,
+    "facing": 589185999,
     "kind": "locationMarkerPlayerStart",
     "player": 4,
     "position": [
       -1736704,
-      1767936
+      1769472
     ]
   },
   "4B430724-4024-4F96-2CCF-F6ABFD8B0074": {
@@ -7833,6 +7851,15 @@
     "position": [
       -764588,
       863130
+    ]
+  },
+  "4CFB5666-4406-2D5A-F686-5BBC4FEC5983": {
+    "facing": 2079782897,
+    "kind": "duckiesAlliedCrediter_DuckyUnit",
+    "player": 0,
+    "position": [
+      -1732865,
+      1760810
     ]
   },
   "4D11CB93-43CB-7653-62BC-A693074359A7": {
@@ -10851,12 +10878,12 @@
     ]
   },
   "6A3B6058-4E1C-4EE5-4190-49BAA5E59E35": {
-    "facing": 1858346628,
+    "facing": 1858346652,
     "kind": "locationMarkerPlayerStart",
     "player": 2,
     "position": [
       -1736704,
-      1767936
+      1769472
     ]
   },
   "6A3DD7FE-4153-8F55-9EF0-AFA863C3CF1A": {
@@ -22911,7 +22938,7 @@
     ]
   },
   "DF119196-44AE-7A3C-34F9-AD9FD2B82306": {
-    "facing": 536870852,
+    "facing": 536870837,
     "kind": "_duckiesLifeBomb5",
     "player": 0,
     "position": [
