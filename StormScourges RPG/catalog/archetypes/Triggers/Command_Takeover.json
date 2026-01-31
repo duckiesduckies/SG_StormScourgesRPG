@@ -1,6 +1,71 @@
 ﻿{
   "actions": [
     {
+      "function_id": "Debug_DebugMessage",
+      "guid": "9E77FCEB452EE217F81258B6C9474BF4",
+      "parameters": [
+        {
+          "expressions": [
+            {
+              "guid": "2EC3BDAE4BAB053F9013D6B46E6C5147",
+              "preset": {
+                "guid": "C376F7724687518720C932BC812008F0",
+                "preset_id": "Debug_DebugMessageTag",
+                "value_id": "notag"
+              },
+              "type": "Preset"
+            }
+          ],
+          "guid": "EEA70AA44B463CFEEF2D7C955F095881",
+          "id": "tag"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "3BC51A894621A3242769818ACC61C90A",
+              "type": "Value",
+              "value": {
+                "guid": "DB530AA445C74A29A01D8EB2C43FB152",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "String"
+                },
+                "value": "As of 31.01.2026 game crashes when players 2-4 use this trigger (crashes whenever it checks anything in condition relating to player's selection/current unit from selection)"
+              }
+            }
+          ],
+          "guid": "383E5B5943917F872742E6A722F8BB4B",
+          "id": "message"
+        },
+        {
+          "expressions": [
+            {
+              "guid": "D5CD258845B4E0D5EB5D3D9B4F47C8F3",
+              "type": "Value",
+              "value": {
+                "guid": "C39775D64D629676477F049570FC412D",
+                "type": {
+                  "directive": "FunctionType",
+                  "implements": "",
+                  "inner_type": "",
+                  "param_id": "",
+                  "sub_directive": "None",
+                  "type": "Time"
+                },
+                "value": "10.0"
+              }
+            }
+          ],
+          "guid": "CB08973047557984D9AB41A8A82DC2D2",
+          "id": "duration"
+        }
+      ]
+    },
+    {
       "function_id": "UnitGroup_ForEachUnitInGroup",
       "guid": "219AF44F4404A6A866AADBA49D5F4B90",
       "parameters": [
@@ -875,6 +940,7 @@
     }
   ],
   "based_on": "Trigger",
+  "enabled": false,
   "events": [
     {
       "function_id": "Player_OnPlayerSendsChatMessage",
